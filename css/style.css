@@ -1,0 +1,110 @@
+body{
+    background: lightseagreen;
+    text-align: center;
+    padding: 100px;
+}
+
+#logo_instagram{
+    height: 200px;
+    border-radius: 45%;
+    border: 5px solid blue;
+    transition: 1s;
+}
+#logo_instagram:hover{
+    transform: rotate(360deg) scale(5.2);
+    border: 4px dotted #fff;
+}
+
+h1{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: left;
+    font-size: 28px;
+    color: #fff;
+}
+
+ol{
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    margin: 40px 0;
+}
+
+tr, td{
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+.cabecera{
+    background: #fff;
+}
+
+form{
+    border: 1px solid;
+    width: 400px;
+    margin: 50px auto;
+    background: palevioletred;
+    padding: 30px;
+    text-align: left;
+}
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
+    margin-bottom: 26px;
+    padding: 6px 12px;
+    width: 85%;
+}
+
+button{
+    width: 100%;
+    padding: 16px;
+    border-radius: 50px;
+    background: #000;
+    color: pink;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover{
+    background: pink;
+    color: #000;
+    border-radius: 10;
+}
+
+iframe{
+    margin: 40px 0;
+}
+
+
+#btn{
+    display: block;
+    padding: 12px 20px;
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px 3px #999;  /*es para dar sombas*/
+    max-width: 220px;
+    margin: 20px auto;
+    text-decoration: none;
+    color: #fff;
+}
+#btn:hover {
+    transform: scale(0.8);
+    background: #fff;
+    color: #000000;
+}
